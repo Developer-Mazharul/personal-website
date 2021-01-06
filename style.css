@@ -1,24 +1,42 @@
 body{
     margin: 0;
-    font-family: 'poppins', serif;
 }
-.menu{
-    width: 400px;
-    float: right;
+ul.menu{
+    list-style: none;
+    text-align: right;
+}
+ul.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 10px 10px;
+}
+ul.menu li a{
+    text-decoration: none;
+}
+ul.menu{
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
 }
 h1{
     font-size: 50px;
     font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 80px;
+    margin-bottom: -20px;
 }
 .orange-highlight{
-    color: orange;
+    color: blue;
+}
+#about{
+    overflow: hidden;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    
 }
 .half-width img{
     width: 100%;
@@ -31,43 +49,261 @@ h1{
     color:white;
     overflow: hidden;
 }
-
-
-
-
-
-#project-section{
+#media-section{
     background: #F8F9FC;
-    padding: 80px 0px;
+    padding: 80px 5%;
 }
-#project-title{
+#one{
     text-align: center;
 }
-.projects {
+.media{
     padding: 40px 0;
 }
-.project-items{
-    width: 28%;
-    background: #FFFFFF;
-    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
-    border-radius: 20px;
+.media-all{
+    width: 27%;
+    background: white;
+    box-shadow: 0px 7px 20px rgba(90, 12, 12, 0.07);
+    border-radius: 25px;
     margin: 0 10px;
-    padding: 13px;
+    padding: 15px;
     display: inline-block;
 }
-.project-image img{
+.media-photo img{
     width: 100%;
 }
-.project-title h3{
+.media-text h3{
     font-size: 20px;
-    font-family: Roboto;
+    font-family: monospace;
     margin: 10px 0px;
-    line-height: 28px;
-    color: #363958;
+    line-height: 25px;
+    color: black;
 }
-.project-desc p{
+.media-para p{
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 28px;
+    color:   #6C6C6C;
+}
+#last{
+    padding: 50px 0px;
+}
+.last-sec{
+        width: 70%;
+        margin: auto;
+        background-image: url("images/Button.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 225px;
+        border-radius: 30px;
+        overflow: hidden;
+}
+.last-left{
+    width: 50%;
+    float: left;
+}
+.last-text h2{
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 10%;
+    padding: 70px 10px;
+}.last-right{
+    width: 50%;
+    float: right;
+}
+.last-chat {
+    text-align: end;
+    margin: 25% 10%;
+}
+.last-chat a{
     font-size: 16px;
-    font-family: Roboto;
-    line-height: 28px;
-    color: #6C6C6C;
+    line-height: 24px;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient( red, white);
+    border-radius: 7px;
 }
+.the-end{
+    padding-top: 60px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}      
+.small-title h3{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: normal;
+    color: red;
+    margin-bottom: 20px;
+}
+.mail h2{
+    font-size: 40px;
+    line-height: 40px;
+    color: blue;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-style: initial;
+}
+span#icon-image img{
+    width: 5%;
+    margin: 5px;
+}
+        
+
+body{
+    margin: 0;
+}
+ul.menu{
+    list-style: none;
+    text-align: right;
+}
+ul.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px;
+    padding: 10px 10px;
+}
+ul.menu li a{
+    text-decoration: none;
+}
+ul.menu{
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    line-height: 80px;
+    margin-bottom: -20px;
+}
+.color-highlight{
+    color: rgb(255, 0, 255);
+}
+#about{
+    overflow: hidden;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, red, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    overflow: hidden;
+}
+#media-section{
+    background: #F8F9FC;
+    padding: 80px 5%;
+}
+#one{
+    text-align: center;
+}
+.media{
+    padding: 40px 0;
+}
+.media-all{
+    width: 27%;
+    background: white;
+    box-shadow: 0px 7px 20px rgba(90, 12, 12, 0.07);
+    border-radius: 25px;
+    margin: 0 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.media-photo img{
+    width: 100%;
+}
+.media-text h3{
+    font-size: 20px;
+    font-family: monospace;
+    margin: 10px 0px;
+    line-height: 25px;
+    color: black;
+}
+.media-para p{
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 28px;
+    color:   #6C6C6C;
+}
+#last{
+    padding: 50px 0px;
+}
+.last-sec{
+        width: 70%;
+        margin: auto;
+        background-image: url("images/Button.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 225px;
+        border-radius: 30px;
+        overflow: hidden;
+}
+.last-left{
+    width: 50%;
+    float: left;
+}
+.last-text h2{
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 10%;
+    padding: 70px 10px;
+}.last-right{
+    width: 50%;
+    float: right;
+}
+.last-chat {
+    text-align: end;
+    margin: 25% 10%;
+}
+.last-chat a{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient( red, white);
+    border-radius: 7px;
+}
+.the-end{
+    padding-top: 60px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}      
+.small-title h3{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: normal;
+    color: gray;
+    margin-bottom: 20px;
+    font-family: Roboto;
+}
+.mail h2{
+    font-size: 35px;
+    line-height: 40px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-style: initial;
+    font-family: Roboto;
+}
+span#icon-image img{
+    width: 5%;
+    margin: 5px;
+}
+        
+
+        
